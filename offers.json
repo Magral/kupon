@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-27T14:37:40Z",
+  "updated_at": "2026-10-27T14:39:27Z",
   "stores": [
     "lenta",
     "yarche"
   ],
-  "count": 15,
+  "count": 11,
   "offers": [
     {
       "store": "lenta",
@@ -23,7 +23,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:37:40Z"
+      "updated_at": "2026-10-27T14:39:27Z"
     },
     {
       "store": "lenta",
@@ -41,25 +41,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:37:40Z"
-    },
-    {
-      "store": "lenta",
-      "title": "Установить",
-      "description": "Лучшие скидки в приложении Хотите не пропускать горячие промокоды? Активируйте PUSH-уведомления и получайте их первыми! Установить",
-      "code": null,
-      "type": null,
-      "scope": "unknown",
-      "value": null,
-      "minimum": 0,
-      "expires": null,
-      "source_name": "ПромоКодекс",
-      "source_url": "https://promocodex.ru/app/",
-      "source_page": "https://promocodex.ru/promocodes/lenta/",
-      "source_kind": "editorial",
-      "verification": "unverified",
-      "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:37:40Z"
+      "updated_at": "2026-10-27T14:39:27Z"
     },
     {
       "store": "lenta",
@@ -67,7 +49,7 @@
       "description": "Скидка 15% на доставку по промокоду из Гипер Ленты",
       "code": null,
       "type": "percent",
-      "scope": "basket",
+      "scope": "unknown",
       "value": 15,
       "minimum": 0,
       "expires": null,
@@ -77,7 +59,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:37:40Z"
+      "updated_at": "2026-10-27T14:39:27Z"
     },
     {
       "store": "lenta",
@@ -95,7 +77,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:37:40Z"
+      "updated_at": "2026-10-27T14:39:27Z"
     },
     {
       "store": "lenta",
@@ -103,7 +85,7 @@
       "description": "Скидка до 25% на доставку по промокоду из Гипер Ленты",
       "code": null,
       "type": "percent",
-      "scope": "basket",
+      "scope": "unknown",
       "value": 25,
       "minimum": 0,
       "expires": null,
@@ -113,61 +95,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:37:40Z"
-    },
-    {
-      "store": "lenta",
-      "title": "Озон Фреш Доставка продуктов ›",
-      "description": "Похожие магазины Другие магазины с промокодами и скидками Ашан Доставка продуктов › Озон Фреш Доставка продуктов › Дикси Доставка продуктов › Метро Доставка продуктов ›",
-      "code": null,
-      "type": null,
-      "scope": "basket",
-      "value": null,
-      "minimum": 0,
-      "expires": null,
-      "source_name": "ПромоКодекс",
-      "source_url": "https://promocodex.ru/promocodes/ozonfresh/",
-      "source_page": "https://promocodex.ru/promocodes/lenta/",
-      "source_kind": "editorial",
-      "verification": "unverified",
-      "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:37:40Z"
-    },
-    {
-      "store": "lenta",
-      "title": "Дикси Доставка продуктов ›",
-      "description": "Похожие магазины Другие магазины с промокодами и скидками Ашан Доставка продуктов › Озон Фреш Доставка продуктов › Дикси Доставка продуктов › Метро Доставка продуктов ›",
-      "code": null,
-      "type": null,
-      "scope": "basket",
-      "value": null,
-      "minimum": 0,
-      "expires": null,
-      "source_name": "ПромоКодекс",
-      "source_url": "https://promocodex.ru/promocodes/dixy/",
-      "source_page": "https://promocodex.ru/promocodes/lenta/",
-      "source_kind": "editorial",
-      "verification": "unverified",
-      "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:37:40Z"
-    },
-    {
-      "store": "lenta",
-      "title": "Метро Доставка продуктов ›",
-      "description": "Похожие магазины Другие магазины с промокодами и скидками Ашан Доставка продуктов › Озон Фреш Доставка продуктов › Дикси Доставка продуктов › Метро Доставка продуктов ›",
-      "code": null,
-      "type": null,
-      "scope": "basket",
-      "value": null,
-      "minimum": 0,
-      "expires": null,
-      "source_name": "ПромоКодекс",
-      "source_url": "https://promocodex.ru/promocodes/metro/",
-      "source_page": "https://promocodex.ru/promocodes/lenta/",
-      "source_kind": "editorial",
-      "verification": "unverified",
-      "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:37:40Z"
+      "updated_at": "2026-10-27T14:39:27Z"
     },
     {
       "store": "yarche",
@@ -185,7 +113,7 @@
       "source_kind": "community",
       "verification": "community",
       "verification_note": "Предложение сообщества; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:37:40Z"
+      "updated_at": "2026-10-27T14:39:27Z"
     },
     {
       "store": "yarche",
@@ -203,7 +131,7 @@
       "source_kind": "community",
       "verification": "community",
       "verification_note": "Предложение сообщества; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:37:40Z"
+      "updated_at": "2026-10-27T14:39:27Z"
     },
     {
       "store": "yarche",
@@ -221,7 +149,7 @@
       "source_kind": "community",
       "verification": "community",
       "verification_note": "Предложение сообщества; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:37:40Z"
+      "updated_at": "2026-10-27T14:39:27Z"
     },
     {
       "store": "yarche",
@@ -229,7 +157,7 @@
       "description": "до 30% До -30% на ассортимент товаров каталога Заканчивается через 4 дня не ... Показать код Скопировано Сервис доставки регулярно снижает цены на некоторые товарные позиции из каталога. [+] Больше информации Успешно применили купон? Загрузите снимок экрана магазина после применения купона, чтобы помочь пользователям удостовериться в работоспособности купона. Подробности Всё, что вам нужно знать об этом предложении П",
       "code": null,
       "type": "percent",
-      "scope": "basket",
+      "scope": "product",
       "value": 30,
       "minimum": 0,
       "expires": null,
@@ -239,7 +167,7 @@
       "source_kind": "community",
       "verification": "community",
       "verification_note": "Предложение сообщества; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:37:40Z"
+      "updated_at": "2026-10-27T14:39:27Z"
     },
     {
       "store": "yarche",
@@ -257,7 +185,7 @@
       "source_kind": "community",
       "verification": "community",
       "verification_note": "Предложение сообщества; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:37:40Z"
+      "updated_at": "2026-10-27T14:39:27Z"
     },
     {
       "store": "lenta",
@@ -275,7 +203,7 @@
       "source_kind": "telegram",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:37:40Z"
+      "updated_at": "2026-10-27T14:39:27Z"
     }
   ],
   "source_errors": [
