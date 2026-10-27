@@ -27,6 +27,9 @@ SOURCES = [
 HEADERS = {"User-Agent": "KuponOfferCollector/0.2 (+https://github.com/Magral/kupon)"}
 PROMO_WORDS = re.compile(r"промокод|купон|скидк|акци|бесплатн.{0,20}достав|эконом", re.I)
 CODE = re.compile(r"(?:промокод|код)\s*[:№\-]?\s*[`'«\"]?([A-ZА-ЯЁ0-9][A-ZА-ЯЁ0-9_-]{3,19})", re.I)
+COMPETITORS = re.compile(r"пят[её]рочк|перекр[её]сток|магнит|самокат|ашан|окей|вкусвилл|купер", re.I)
+ORDER_SCOPE = re.compile(r"заказ|корзин|самовывоз|доставк", re.I)
+PRODUCT_SCOPE = re.compile(r"молоч|мяс|птиц|овощ|фрукт|сыр|снек|товар|продукт|каталог", re.I)
 PERCENT = re.compile(r"(?:скидк\w*\s*(?:до\s*)?|[-−]\s*)(\d{1,2})\s*%", re.I)
 FREE_SHIP = re.compile(r"бесплатн.{0,25}достав|достав.{0,20}бесплатн", re.I)
 RUBLES = re.compile(r"(?:скидк\w*\s*(?:до\s*)?|[-−]\s*)(\d{2,5})\s*(?:₽|руб(?:\.|лей|ля|ль)?)", re.I)
@@ -51,10 +54,33 @@ def expiry(text: str) -> str | None:
         day, month, year = m.group(1), MONTHS[m.group(2)], int(m.group(3) or date.today().year)
         try:
             parsed = date(year, month, int(day))
-            if not m.group(3) and parsed < date.today(): parsed = date(year + 1, month, int(day))
             return parsed.isoformat() if parsed >= date.today() else None
         except ValueError: return None
     return None
+
+
+def relevant(store: str, title: str, context: str, link: str, source_page: str, kind: str, source_name: str) -> bool:
+    target = re.compile(r"ярче|yarche", re.I) if store == "yarche" else re.compile(r"лента|lenta", re.I)
+    title_has = bool(target.search(title))
+    combined = title + " " + context
+    if "Picodi" in source_name and not re.search(r"/(?:online-)?lenta(?:/|$)", urlparse(link).path, re.I):
+        return False
+    if "Pikadil" in source_name and not re.search(r"/view/yarcheplus\.ru", urlparse(link).path, re.I):
+        return False
+    if kind == "telegram" and COMPETITORS.search(combined) and not title_has:
+        return False
+    if COMPETITORS.search(title) and not title_has:
+        return False
+    page_path = urlparse(source_page).path.lower()
+    page_is_specific = bool(re.search(r"lenta|yarche", page_path))
+    return bool(target.search(combined)) or page_is_specific
+
+
+def offer_scope(text: str, offer_type: str | None) -> str:
+    if offer_type == "delivery": return "delivery"
+    if ORDER_SCOPE.search(text): return "basket"
+    if PRODUCT_SCOPE.search(text): return "product"
+    return "unknown"
 
 
 def source_grade(kind: str, text: str) -> tuple[str, str]:
@@ -110,22 +136,36 @@ def collect():
                 if urlparse(link).netloc and urlparse(link).netloc != urlparse(response.url).netloc:
                     continue
                 combined = context + " " + title
+                if not relevant(store, title, context, link, response.url, kind, label):
+                    continue
+                date_text = DATE_NUMERIC.search(combined) or DATE_RU.search(combined.lower())
+                expires = expiry(combined)
+                if date_text and expires is None:
+                    continue
                 code_match = CODE.search(combined)
+                code_value = code_match.group(1) if code_match else None
+                if code_match and re.match(r"\s*[%₽]", combined[code_match.end():]):
+                    code_value = None
+                if code_value and code_value.casefold() in {"скопировано", "показать", "открыть", "купон"}:
+                    code_value = None
                 discount = PERCENT.search(combined)
                 free_ship = FREE_SHIP.search(combined)
                 rubles = RUBLES.search(combined)
                 minimum = MINIMUM.search(combined)
+                kind_value = "percent" if discount else "fixed" if rubles else "delivery" if free_ship else None
+                scope = offer_scope(combined, kind_value)
                 grade, note = source_grade(kind, combined)
-                headline = context[:150] if title.casefold() in {"подробнее", "открыть", "открыть код", "показать код", "перейти", "акция", "купон"} else title if len(title) >= 8 else context[:150]
+                headline = context[:150] if title.casefold() in {"подробнее", "открыть", "открыть код", "показать код", "перейти", "акция", "купон", "view in telegram", "скопировано"} else title if len(title) >= 8 else context[:150]
                 records.append({
                     "store": store,
                     "title": headline,
                     "description": context[:420],
-                    "code": code_match.group(1) if code_match else None,
-                    "type": "percent" if discount else "fixed" if rubles else "delivery" if free_ship else None,
+                    "code": code_value,
+                    "type": kind_value,
+                    "scope": scope,
                     "value": int(discount.group(1)) if discount else int(rubles.group(1)) if rubles else 0 if free_ship else None,
                     "minimum": int(minimum.group(1)) if minimum else 0,
-                    "expires": expiry(combined),
+                    "expires": expires,
                     "source_name": label,
                     "source_url": link,
                     "source_page": response.url,
@@ -141,7 +181,7 @@ def collect():
     # Keep a compact feed for mobile and remove repeated cards.
     deduped, seen = [], set()
     for item in records:
-        key = (item["store"], item["title"].casefold(), item["source_page"])
+        key = (item["store"], item["title"].casefold(), item["source_name"])
         if key in seen: continue
         seen.add(key); deduped.append(item)
     return {"schema_version":1,"updated_at":now,"stores":["lenta","yarche"],"count":len(deduped),"offers":deduped[:80],"source_errors":errors}
