@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-27T14:39:27Z",
+  "updated_at": "2026-10-27T14:41:10Z",
   "stores": [
     "lenta",
     "yarche"
   ],
-  "count": 11,
+  "count": 32,
   "offers": [
     {
       "store": "lenta",
@@ -23,7 +23,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:39:27Z"
+      "updated_at": "2026-10-27T14:41:10Z"
     },
     {
       "store": "lenta",
@@ -41,7 +41,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:39:27Z"
+      "updated_at": "2026-10-27T14:41:10Z"
     },
     {
       "store": "lenta",
@@ -59,7 +59,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:39:27Z"
+      "updated_at": "2026-10-27T14:41:10Z"
     },
     {
       "store": "lenta",
@@ -77,7 +77,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:39:27Z"
+      "updated_at": "2026-10-27T14:41:10Z"
     },
     {
       "store": "lenta",
@@ -95,7 +95,385 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:39:27Z"
+      "updated_at": "2026-10-27T14:41:10Z"
+    },
+    {
+      "store": "lenta",
+      "title": "Прошопер — Сим (Челябинск)",
+      "description": "Прошопер — Сим (Челябинск) Поиск Навигация Акции Купоны Сим",
+      "code": null,
+      "type": null,
+      "scope": "unknown",
+      "value": null,
+      "minimum": 0,
+      "expires": null,
+      "source_name": "Прошопер",
+      "source_url": "https://proshoper.ru/sim/",
+      "source_page": "https://proshoper.ru/sim/coupons/lenta-onlajn/",
+      "source_kind": "editorial",
+      "verification": "unverified",
+      "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
+      "updated_at": "2026-10-27T14:41:10Z"
+    },
+    {
+      "store": "lenta",
+      "title": "Прошопер — Сим (Челябинск) Поиск Навигация Акции Купоны Сим",
+      "description": "Прошопер — Сим (Челябинск) Поиск Навигация Акции Купоны Сим",
+      "code": null,
+      "type": null,
+      "scope": "unknown",
+      "value": null,
+      "minimum": 0,
+      "expires": null,
+      "source_name": "Прошопер",
+      "source_url": "https://proshoper.ru/sim/actions/",
+      "source_page": "https://proshoper.ru/sim/coupons/lenta-onlajn/",
+      "source_kind": "editorial",
+      "verification": "unverified",
+      "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
+      "updated_at": "2026-10-27T14:41:10Z"
+    },
+    {
+      "store": "lenta",
+      "title": "Прошопер — Сим (Челябинск) Поиск Навигация Акции Купоны Сим",
+      "description": "Прошопер — Сим (Челябинск) Поиск Навигация Акции Купоны Сим",
+      "code": null,
+      "type": null,
+      "scope": "unknown",
+      "value": null,
+      "minimum": 0,
+      "expires": null,
+      "source_name": "Прошопер",
+      "source_url": "https://proshoper.ru/sim/coupons/",
+      "source_page": "https://proshoper.ru/sim/coupons/lenta-onlajn/",
+      "source_kind": "editorial",
+      "verification": "unverified",
+      "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
+      "updated_at": "2026-10-27T14:41:10Z"
+    },
+    {
+      "store": "lenta",
+      "title": "Прошопер — Сим (Челябинск) Поиск Навигация Акции Купоны Сим",
+      "description": "Прошопер — Сим (Челябинск) Поиск Навигация Акции Купоны Сим",
+      "code": null,
+      "type": null,
+      "scope": "unknown",
+      "value": null,
+      "minimum": 0,
+      "expires": null,
+      "source_name": "Прошопер",
+      "source_url": "https://proshoper.ru/cities/",
+      "source_page": "https://proshoper.ru/sim/coupons/lenta-onlajn/",
+      "source_kind": "editorial",
+      "verification": "unverified",
+      "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
+      "updated_at": "2026-10-27T14:41:10Z"
+    },
+    {
+      "store": "lenta",
+      "title": "/ Купоны / Лента Онлайн 27 октября, вторник Войти Зарегистрироваться",
+      "description": "/ Купоны / Лента Онлайн 27 октября, вторник Войти Зарегистрироваться",
+      "code": null,
+      "type": null,
+      "scope": "unknown",
+      "value": null,
+      "minimum": 0,
+      "expires": null,
+      "source_name": "Прошопер",
+      "source_url": "https://proshoper.ru/~login/?next=/sim/coupons/lenta-onlajn/",
+      "source_page": "https://proshoper.ru/sim/coupons/lenta-onlajn/",
+      "source_kind": "editorial",
+      "verification": "unverified",
+      "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
+      "updated_at": "2026-10-27T14:41:10Z"
+    },
+    {
+      "store": "lenta",
+      "title": "Зарегистрироваться",
+      "description": "/ Купоны / Лента Онлайн 27 октября, вторник Войти Зарегистрироваться",
+      "code": null,
+      "type": null,
+      "scope": "unknown",
+      "value": null,
+      "minimum": 0,
+      "expires": null,
+      "source_name": "Прошопер",
+      "source_url": "https://proshoper.ru/~signup/?next=/~edit/",
+      "source_page": "https://proshoper.ru/sim/coupons/lenta-onlajn/",
+      "source_kind": "editorial",
+      "verification": "unverified",
+      "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
+      "updated_at": "2026-10-27T14:41:10Z"
+    },
+    {
+      "store": "lenta",
+      "title": "Обратная связь",
+      "description": "Обратная связь Добавить каталог Рейтинг магазинов Контакты магазинов Города Для торговых сетей proshoper.ru (прошопер.рф) — г. Сим © 2013—2026 18+ Нашли ошибку? Выделите, Ctrl+Enter «Прошопер» — информационный ресурс, являющийся гидом по акциям и маркетинговым кампаниям крупных торговых сетей России. Вся размещенная информация носит исключительно справочно-информационный характер и не является рекламой, публичной офе",
+      "code": null,
+      "type": null,
+      "scope": "product",
+      "value": null,
+      "minimum": 0,
+      "expires": null,
+      "source_name": "Прошопер",
+      "source_url": "https://proshoper.ru/feedback/",
+      "source_page": "https://proshoper.ru/sim/coupons/lenta-onlajn/",
+      "source_kind": "editorial",
+      "verification": "unverified",
+      "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
+      "updated_at": "2026-10-27T14:41:10Z"
+    },
+    {
+      "store": "lenta",
+      "title": "Добавить каталог",
+      "description": "Обратная связь Добавить каталог Рейтинг магазинов Контакты магазинов Города Для торговых сетей proshoper.ru (прошопер.рф) — г. Сим © 2013—2026 18+ Нашли ошибку? Выделите, Ctrl+Enter «Прошопер» — информационный ресурс, являющийся гидом по акциям и маркетинговым кампаниям крупных торговых сетей России. Вся размещенная информация носит исключительно справочно-информационный характер и не является рекламой, публичной офе",
+      "code": null,
+      "type": null,
+      "scope": "product",
+      "value": null,
+      "minimum": 0,
+      "expires": null,
+      "source_name": "Прошопер",
+      "source_url": "https://proshoper.ru/add_catalog/",
+      "source_page": "https://proshoper.ru/sim/coupons/lenta-onlajn/",
+      "source_kind": "editorial",
+      "verification": "unverified",
+      "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
+      "updated_at": "2026-10-27T14:41:10Z"
+    },
+    {
+      "store": "lenta",
+      "title": "В магазин",
+      "description": "В магазин Оценка Оцени магазин Ваша оценка 5 stars 4 stars 3 stars 2 stars 1 stars Рейтинг: 4.2 /5 ( 40 👫) Лента — это сервис по экспресс-доставке продуктов питания и не только. Он предлагает своим клиентам множество выгодных акций, подарков и скидок, которые помогут сэкономить. Новые клиенты будут приятно удивлены размером скидок и подарков при первом заказе, и эти предложения могут распространяться не только на пер",
+      "code": null,
+      "type": null,
+      "scope": "product",
+      "value": null,
+      "minimum": 0,
+      "expires": null,
+      "source_name": "Kodisi",
+      "source_url": "https://kodisi.com/str/911/",
+      "source_page": "https://kodisi.com/store/promokody-lenta-onlajn-na-pervyj-zakaz/",
+      "source_kind": "editorial",
+      "verification": "unverified",
+      "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
+      "updated_at": "2026-10-27T14:41:10Z"
+    },
+    {
+      "store": "lenta",
+      "title": "20% Скидка 20% по коду! Скидка 20% на первый 2 заказ в приложении при вводе промокода! Успей воспользоваться, пока код еще активен! Действует до: 31.01.2027",
+      "description": "Открыть промокод",
+      "code": null,
+      "type": "percent",
+      "scope": "basket",
+      "value": 20,
+      "minimum": 0,
+      "expires": null,
+      "source_name": "Kodisi",
+      "source_url": "https://kodisi.com/cpn/91154/",
+      "source_page": "https://kodisi.com/store/promokody-lenta-onlajn-na-pervyj-zakaz/",
+      "source_kind": "editorial",
+      "verification": "unverified",
+      "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
+      "updated_at": "2026-10-27T14:41:10Z"
+    },
+    {
+      "store": "lenta",
+      "title": "20% + 🚚 💎 Скидка 20% и доставка на повторный заказ! Постоянные клиенты могут воспользоваться еще одной скидкой на свой повторной заказ! Для этого скачайте мобильное приложение с са",
+      "description": "Открыть промокод",
+      "code": null,
+      "type": "percent",
+      "scope": "basket",
+      "value": 20,
+      "minimum": 0,
+      "expires": null,
+      "source_name": "Kodisi",
+      "source_url": "https://kodisi.com/cpn/58379/",
+      "source_page": "https://kodisi.com/store/promokody-lenta-onlajn-na-pervyj-zakaz/",
+      "source_kind": "editorial",
+      "verification": "unverified",
+      "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
+      "updated_at": "2026-10-27T14:41:10Z"
+    },
+    {
+      "store": "lenta",
+      "title": "20% Скидка 20% Скидка 20% при заказе от 2000 рублей по промокоду действует на товары без скидок, максимальная сумма скидки 1000 рублей Действует до: 31.12.2026",
+      "description": "Открыть промокод",
+      "code": null,
+      "type": "percent",
+      "scope": "product",
+      "value": 20,
+      "minimum": 2000,
+      "expires": null,
+      "source_name": "Kodisi",
+      "source_url": "https://kodisi.com/cpn/58381/",
+      "source_page": "https://kodisi.com/store/promokody-lenta-onlajn-na-pervyj-zakaz/",
+      "source_kind": "editorial",
+      "verification": "unverified",
+      "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
+      "updated_at": "2026-10-27T14:41:10Z"
+    },
+    {
+      "store": "lenta",
+      "title": "Открыть акцию",
+      "description": "Доп. скидка 20% в приложении! Используйте данный купон и скачайте мобильное приложение, чтобы получить дополнительную скидку 20% и дополнительные бесплатные доставки! Открыть акцию",
+      "code": null,
+      "type": "percent",
+      "scope": "basket",
+      "value": 20,
+      "minimum": 0,
+      "expires": null,
+      "source_name": "Kodisi",
+      "source_url": "https://kodisi.com/cpn/58384/",
+      "source_page": "https://kodisi.com/store/promokody-lenta-onlajn-na-pervyj-zakaz/",
+      "source_kind": "editorial",
+      "verification": "unverified",
+      "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
+      "updated_at": "2026-10-27T14:41:10Z"
+    },
+    {
+      "store": "yarche",
+      "title": "Trip.com",
+      "description": "НАЙТИ Trip.com Sunlight Лемана Про Петух Я.Путешествия CSFail Магазины Категории Блог Подборки ▾ Лучшие промокоды Промокоды на бесплатную подписку Промокоды на доставку еды Промокоды на заказ суши Промокоды на заказ пиццы Промокоды на путешествия Фрибеты на сегодня",
+      "code": null,
+      "type": "delivery",
+      "scope": "delivery",
+      "value": 0,
+      "minimum": 0,
+      "expires": null,
+      "source_name": "Промокод.com",
+      "source_url": "https://promokod.com/coupon-store/trip-com",
+      "source_page": "https://promokod.com/coupon-store/yarcheplus-ru",
+      "source_kind": "editorial",
+      "verification": "unverified",
+      "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
+      "updated_at": "2026-10-27T14:41:10Z"
+    },
+    {
+      "store": "yarche",
+      "title": "Sunlight",
+      "description": "НАЙТИ Trip.com Sunlight Лемана Про Петух Я.Путешествия CSFail Магазины Категории Блог Подборки ▾ Лучшие промокоды Промокоды на бесплатную подписку Промокоды на доставку еды Промокоды на заказ суши Промокоды на заказ пиццы Промокоды на путешествия Фрибеты на сегодня",
+      "code": null,
+      "type": "delivery",
+      "scope": "delivery",
+      "value": 0,
+      "minimum": 0,
+      "expires": null,
+      "source_name": "Промокод.com",
+      "source_url": "https://promokod.com/coupon-store/sunlight-net",
+      "source_page": "https://promokod.com/coupon-store/yarcheplus-ru",
+      "source_kind": "editorial",
+      "verification": "unverified",
+      "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
+      "updated_at": "2026-10-27T14:41:10Z"
+    },
+    {
+      "store": "yarche",
+      "title": "Лемана Про",
+      "description": "НАЙТИ Trip.com Sunlight Лемана Про Петух Я.Путешествия CSFail Магазины Категории Блог Подборки ▾ Лучшие промокоды Промокоды на бесплатную подписку Промокоды на доставку еды Промокоды на заказ суши Промокоды на заказ пиццы Промокоды на путешествия Фрибеты на сегодня",
+      "code": null,
+      "type": "delivery",
+      "scope": "delivery",
+      "value": 0,
+      "minimum": 0,
+      "expires": null,
+      "source_name": "Промокод.com",
+      "source_url": "https://promokod.com/coupon-store/leroymerlin-ru",
+      "source_page": "https://promokod.com/coupon-store/yarcheplus-ru",
+      "source_kind": "editorial",
+      "verification": "unverified",
+      "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
+      "updated_at": "2026-10-27T14:41:10Z"
+    },
+    {
+      "store": "yarche",
+      "title": "НАЙТИ Trip.com Sunlight Лемана Про Петух Я.Путешествия CSFail Магазины Категории Блог Подборки ▾ Лучшие промокоды Промокоды на бесплатную подписку Про",
+      "description": "НАЙТИ Trip.com Sunlight Лемана Про Петух Я.Путешествия CSFail Магазины Категории Блог Подборки ▾ Лучшие промокоды Промокоды на бесплатную подписку Промокоды на доставку еды Промокоды на заказ суши Промокоды на заказ пиццы Промокоды на путешествия Фрибеты на сегодня",
+      "code": null,
+      "type": "delivery",
+      "scope": "delivery",
+      "value": 0,
+      "minimum": 0,
+      "expires": null,
+      "source_name": "Промокод.com",
+      "source_url": "https://promokod.com/coupon-store/petuh",
+      "source_page": "https://promokod.com/coupon-store/yarcheplus-ru",
+      "source_kind": "editorial",
+      "verification": "unverified",
+      "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
+      "updated_at": "2026-10-27T14:41:10Z"
+    },
+    {
+      "store": "yarche",
+      "title": "Я.Путешествия",
+      "description": "НАЙТИ Trip.com Sunlight Лемана Про Петух Я.Путешествия CSFail Магазины Категории Блог Подборки ▾ Лучшие промокоды Промокоды на бесплатную подписку Промокоды на доставку еды Промокоды на заказ суши Промокоды на заказ пиццы Промокоды на путешествия Фрибеты на сегодня",
+      "code": null,
+      "type": "delivery",
+      "scope": "delivery",
+      "value": 0,
+      "minimum": 0,
+      "expires": null,
+      "source_name": "Промокод.com",
+      "source_url": "https://promokod.com/coupon-store/travel-yandex-ru",
+      "source_page": "https://promokod.com/coupon-store/yarcheplus-ru",
+      "source_kind": "editorial",
+      "verification": "unverified",
+      "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
+      "updated_at": "2026-10-27T14:41:10Z"
+    },
+    {
+      "store": "yarche",
+      "title": "НАЙТИ Trip.com Sunlight Лемана Про Петух Я.Путешествия CSFail Магазины Категории Блог Подборки ▾ Лучшие промокоды Промокоды на бесплатную подписку Про",
+      "description": "НАЙТИ Trip.com Sunlight Лемана Про Петух Я.Путешествия CSFail Магазины Категории Блог Подборки ▾ Лучшие промокоды Промокоды на бесплатную подписку Промокоды на доставку еды Промокоды на заказ суши Промокоды на заказ пиццы Промокоды на путешествия Фрибеты на сегодня",
+      "code": null,
+      "type": "delivery",
+      "scope": "delivery",
+      "value": 0,
+      "minimum": 0,
+      "expires": null,
+      "source_name": "Промокод.com",
+      "source_url": "https://promokod.com/coupon-store/csfail-org",
+      "source_page": "https://promokod.com/coupon-store/yarcheplus-ru",
+      "source_kind": "editorial",
+      "verification": "unverified",
+      "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
+      "updated_at": "2026-10-27T14:41:10Z"
+    },
+    {
+      "store": "yarche",
+      "title": "Магазины",
+      "description": "Магазины Категории Блог Подборки ▾ Лучшие промокоды Промокоды на бесплатную подписку Промокоды на доставку еды Промокоды на заказ суши Промокоды на заказ пиццы Промокоды на путешествия Фрибеты на сегодня",
+      "code": null,
+      "type": "delivery",
+      "scope": "delivery",
+      "value": 0,
+      "minimum": 0,
+      "expires": null,
+      "source_name": "Промокод.com",
+      "source_url": "https://promokod.com/stores",
+      "source_page": "https://promokod.com/coupon-store/yarcheplus-ru",
+      "source_kind": "editorial",
+      "verification": "unverified",
+      "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
+      "updated_at": "2026-10-27T14:41:10Z"
+    },
+    {
+      "store": "yarche",
+      "title": "Категории",
+      "description": "Магазины Категории Блог Подборки ▾ Лучшие промокоды Промокоды на бесплатную подписку Промокоды на доставку еды Промокоды на заказ суши Промокоды на заказ пиццы Промокоды на путешествия Фрибеты на сегодня",
+      "code": null,
+      "type": "delivery",
+      "scope": "delivery",
+      "value": 0,
+      "minimum": 0,
+      "expires": null,
+      "source_name": "Промокод.com",
+      "source_url": "https://promokod.com/categories",
+      "source_page": "https://promokod.com/coupon-store/yarcheplus-ru",
+      "source_kind": "editorial",
+      "verification": "unverified",
+      "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
+      "updated_at": "2026-10-27T14:41:10Z"
     },
     {
       "store": "yarche",
@@ -113,7 +491,7 @@
       "source_kind": "community",
       "verification": "community",
       "verification_note": "Предложение сообщества; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:39:27Z"
+      "updated_at": "2026-10-27T14:41:10Z"
     },
     {
       "store": "yarche",
@@ -131,7 +509,7 @@
       "source_kind": "community",
       "verification": "community",
       "verification_note": "Предложение сообщества; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:39:27Z"
+      "updated_at": "2026-10-27T14:41:10Z"
     },
     {
       "store": "yarche",
@@ -149,7 +527,7 @@
       "source_kind": "community",
       "verification": "community",
       "verification_note": "Предложение сообщества; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:39:27Z"
+      "updated_at": "2026-10-27T14:41:10Z"
     },
     {
       "store": "yarche",
@@ -167,7 +545,7 @@
       "source_kind": "community",
       "verification": "community",
       "verification_note": "Предложение сообщества; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:39:27Z"
+      "updated_at": "2026-10-27T14:41:10Z"
     },
     {
       "store": "yarche",
@@ -185,7 +563,7 @@
       "source_kind": "community",
       "verification": "community",
       "verification_note": "Предложение сообщества; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:39:27Z"
+      "updated_at": "2026-10-27T14:41:10Z"
     },
     {
       "store": "lenta",
@@ -203,7 +581,7 @@
       "source_kind": "telegram",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:39:27Z"
+      "updated_at": "2026-10-27T14:41:10Z"
     }
   ],
   "source_errors": [
@@ -226,6 +604,11 @@
       "source": "Промокодoff",
       "url": "https://promokodoff.ru/promokody-yarche/",
       "error": "403 Client Error: Forbidden for url: https://promokodoff.ru/promokody-yarche/"
+    },
+    {
+      "source": "Промокодо",
+      "url": "https://www.promokodo.ru/kupon/lenta/",
+      "error": "403 Client Error: Forbidden for url: https://www.promokodo.ru/kupon/lenta/"
     }
   ]
 }
