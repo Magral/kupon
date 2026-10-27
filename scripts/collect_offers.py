@@ -21,6 +21,12 @@ SOURCES = [
     ("yarche", "editorial", "Promokodi.net", "https://promokodi.net/store/yarche/"),
     ("yarche", "editorial", "ПромКод.ру", "https://www.promkod.ru/shop/yarcheplus"),
     ("yarche", "editorial", "Промокодoff", "https://promokodoff.ru/promokody-yarche/"),
+    ("lenta", "editorial", "Промокодо", "https://www.promokodo.ru/kupon/lenta/"),
+    ("lenta", "editorial", "Прошопер", "https://proshoper.ru/sim/coupons/lenta-onlajn/"),
+    ("lenta", "editorial", "Купоноед", "https://kuponoed.ru/luchshie-promokody-ot-lenty/"),
+    ("lenta", "editorial", "Kodisi", "https://kodisi.com/store/promokody-lenta-onlajn-na-pervyj-zakaz/"),
+    ("yarche", "editorial", "Промокод.com", "https://promokod.com/coupon-store/yarcheplus-ru"),
+    ("yarche", "editorial", "Promokodus", "https://promokodus.com/campaigns/yarche"),
     ("yarche", "community", "Pikadil · предложения сообщества", "https://pikadil.ru/view/yarcheplus.ru"),
     ("lenta", "telegram", "Telegram · публичная лента промокодов", "https://t.me/s/lenta_kodi"),
 ]
