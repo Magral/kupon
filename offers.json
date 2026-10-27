@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-27T14:44:09Z",
+  "updated_at": "2026-10-27T14:45:16Z",
   "stores": [
     "lenta",
     "yarche"
   ],
-  "count": 22,
+  "count": 14,
   "offers": [
     {
       "store": "lenta",
@@ -23,7 +23,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:44:09Z"
+      "updated_at": "2026-10-27T14:45:16Z"
     },
     {
       "store": "lenta",
@@ -41,7 +41,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:44:09Z"
+      "updated_at": "2026-10-27T14:45:16Z"
     },
     {
       "store": "lenta",
@@ -59,7 +59,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:44:09Z"
+      "updated_at": "2026-10-27T14:45:16Z"
     },
     {
       "store": "lenta",
@@ -77,7 +77,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:44:09Z"
+      "updated_at": "2026-10-27T14:45:16Z"
     },
     {
       "store": "lenta",
@@ -95,7 +95,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:44:09Z"
+      "updated_at": "2026-10-27T14:45:16Z"
     },
     {
       "store": "lenta",
@@ -113,7 +113,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:44:09Z"
+      "updated_at": "2026-10-27T14:45:16Z"
     },
     {
       "store": "lenta",
@@ -131,7 +131,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:44:09Z"
+      "updated_at": "2026-10-27T14:45:16Z"
     },
     {
       "store": "lenta",
@@ -149,7 +149,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:44:09Z"
+      "updated_at": "2026-10-27T14:45:16Z"
     },
     {
       "store": "lenta",
@@ -167,151 +167,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:44:09Z"
-    },
-    {
-      "store": "yarche",
-      "title": "НАЙТИ Trip.com Sunlight Лемана Про Петух Я.Путешествия CSFail Магазины Категории Блог Подборки ▾ Лучшие промокоды Промокоды на бесплатную подписку Про",
-      "description": "НАЙТИ Trip.com Sunlight Лемана Про Петух Я.Путешествия CSFail Магазины Категории Блог Подборки ▾ Лучшие промокоды Промокоды на бесплатную подписку Промокоды на доставку еды Промокоды на заказ суши Промокоды на заказ пиццы Промокоды на путешествия Фрибеты на сегодня",
-      "code": null,
-      "type": "delivery",
-      "scope": "delivery",
-      "value": 0,
-      "minimum": 0,
-      "expires": null,
-      "source_name": "Промокод.com",
-      "source_url": "https://promokod.com/coupon-store/petuh",
-      "source_page": "https://promokod.com/coupon-store/yarcheplus-ru",
-      "source_kind": "editorial",
-      "verification": "unverified",
-      "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:44:09Z"
-    },
-    {
-      "store": "yarche",
-      "title": "НАЙТИ Trip.com Sunlight Лемана Про Петух Я.Путешествия CSFail Магазины Категории Блог Подборки ▾ Лучшие промокоды Промокоды на бесплатную подписку Про",
-      "description": "НАЙТИ Trip.com Sunlight Лемана Про Петух Я.Путешествия CSFail Магазины Категории Блог Подборки ▾ Лучшие промокоды Промокоды на бесплатную подписку Промокоды на доставку еды Промокоды на заказ суши Промокоды на заказ пиццы Промокоды на путешествия Фрибеты на сегодня",
-      "code": null,
-      "type": "delivery",
-      "scope": "delivery",
-      "value": 0,
-      "minimum": 0,
-      "expires": null,
-      "source_name": "Промокод.com",
-      "source_url": "https://promokod.com/coupon-store/csfail-org",
-      "source_page": "https://promokod.com/coupon-store/yarcheplus-ru",
-      "source_kind": "editorial",
-      "verification": "unverified",
-      "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:44:09Z"
-    },
-    {
-      "store": "yarche",
-      "title": "Магазины Категории Блог Подборки ▾ Лучшие промокоды Промокоды на бесплатную подписку Промокоды на доставку еды Промокоды на заказ суши Промокоды на за",
-      "description": "Магазины Категории Блог Подборки ▾ Лучшие промокоды Промокоды на бесплатную подписку Промокоды на доставку еды Промокоды на заказ суши Промокоды на заказ пиццы Промокоды на путешествия Фрибеты на сегодня",
-      "code": null,
-      "type": "delivery",
-      "scope": "delivery",
-      "value": 0,
-      "minimum": 0,
-      "expires": null,
-      "source_name": "Промокод.com",
-      "source_url": "https://promokod.com/blog",
-      "source_page": "https://promokod.com/coupon-store/yarcheplus-ru",
-      "source_kind": "editorial",
-      "verification": "unverified",
-      "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:44:09Z"
-    },
-    {
-      "store": "yarche",
-      "title": "Лучшие промокоды",
-      "description": "Лучшие промокоды Промокоды на бесплатную подписку Промокоды на доставку еды Промокоды на заказ суши Промокоды на заказ пиццы Промокоды на путешествия Фрибеты на сегодня",
-      "code": null,
-      "type": "delivery",
-      "scope": "delivery",
-      "value": 0,
-      "minimum": 0,
-      "expires": null,
-      "source_name": "Промокод.com",
-      "source_url": "https://promokod.com/best-promokody",
-      "source_page": "https://promokod.com/coupon-store/yarcheplus-ru",
-      "source_kind": "editorial",
-      "verification": "unverified",
-      "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:44:09Z"
-    },
-    {
-      "store": "yarche",
-      "title": "Промокоды на бесплатную подписку",
-      "description": "Лучшие промокоды Промокоды на бесплатную подписку Промокоды на доставку еды Промокоды на заказ суши Промокоды на заказ пиццы Промокоды на путешествия Фрибеты на сегодня",
-      "code": null,
-      "type": "delivery",
-      "scope": "delivery",
-      "value": 0,
-      "minimum": 0,
-      "expires": null,
-      "source_name": "Промокод.com",
-      "source_url": "https://promokod.com/promokody-na-podpisku",
-      "source_page": "https://promokod.com/coupon-store/yarcheplus-ru",
-      "source_kind": "editorial",
-      "verification": "unverified",
-      "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:44:09Z"
-    },
-    {
-      "store": "yarche",
-      "title": "Промокоды на доставку еды",
-      "description": "Лучшие промокоды Промокоды на бесплатную подписку Промокоды на доставку еды Промокоды на заказ суши Промокоды на заказ пиццы Промокоды на путешествия Фрибеты на сегодня",
-      "code": null,
-      "type": "delivery",
-      "scope": "delivery",
-      "value": 0,
-      "minimum": 0,
-      "expires": null,
-      "source_name": "Промокод.com",
-      "source_url": "https://promokod.com/dostavka-edy",
-      "source_page": "https://promokod.com/coupon-store/yarcheplus-ru",
-      "source_kind": "editorial",
-      "verification": "unverified",
-      "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:44:09Z"
-    },
-    {
-      "store": "yarche",
-      "title": "Промокоды на заказ суши",
-      "description": "Лучшие промокоды Промокоды на бесплатную подписку Промокоды на доставку еды Промокоды на заказ суши Промокоды на заказ пиццы Промокоды на путешествия Фрибеты на сегодня",
-      "code": null,
-      "type": "delivery",
-      "scope": "delivery",
-      "value": 0,
-      "minimum": 0,
-      "expires": null,
-      "source_name": "Промокод.com",
-      "source_url": "https://promokod.com/promokody-na-sushi",
-      "source_page": "https://promokod.com/coupon-store/yarcheplus-ru",
-      "source_kind": "editorial",
-      "verification": "unverified",
-      "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:44:09Z"
-    },
-    {
-      "store": "yarche",
-      "title": "Промокоды на заказ пиццы",
-      "description": "Лучшие промокоды Промокоды на бесплатную подписку Промокоды на доставку еды Промокоды на заказ суши Промокоды на заказ пиццы Промокоды на путешествия Фрибеты на сегодня",
-      "code": null,
-      "type": "delivery",
-      "scope": "delivery",
-      "value": 0,
-      "minimum": 0,
-      "expires": null,
-      "source_name": "Промокод.com",
-      "source_url": "https://promokod.com/promokody-pizza",
-      "source_page": "https://promokod.com/coupon-store/yarcheplus-ru",
-      "source_kind": "editorial",
-      "verification": "unverified",
-      "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:44:09Z"
+      "updated_at": "2026-10-27T14:45:16Z"
     },
     {
       "store": "yarche",
@@ -329,7 +185,7 @@
       "source_kind": "community",
       "verification": "community",
       "verification_note": "Предложение сообщества; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:44:09Z"
+      "updated_at": "2026-10-27T14:45:16Z"
     },
     {
       "store": "yarche",
@@ -347,7 +203,7 @@
       "source_kind": "community",
       "verification": "community",
       "verification_note": "Предложение сообщества; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:44:09Z"
+      "updated_at": "2026-10-27T14:45:16Z"
     },
     {
       "store": "yarche",
@@ -365,7 +221,7 @@
       "source_kind": "community",
       "verification": "community",
       "verification_note": "Предложение сообщества; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:44:09Z"
+      "updated_at": "2026-10-27T14:45:16Z"
     },
     {
       "store": "yarche",
@@ -383,7 +239,7 @@
       "source_kind": "community",
       "verification": "community",
       "verification_note": "Предложение сообщества; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:44:09Z"
+      "updated_at": "2026-10-27T14:45:16Z"
     },
     {
       "store": "yarche",
@@ -401,7 +257,7 @@
       "source_kind": "community",
       "verification": "community",
       "verification_note": "Предложение сообщества; проверьте код в корзине",
-      "updated_at": "2026-10-27T14:44:09Z"
+      "updated_at": "2026-10-27T14:45:16Z"
     }
   ],
   "source_errors": [
