@@ -40,7 +40,7 @@ PERCENT = re.compile(r"(?:скидк\w*\s*(?:до\s*)?|[-−]\s*)(\d{1,2})\s*%",
 FREE_SHIP = re.compile(r"бесплатн.{0,25}достав|достав.{0,20}бесплатн", re.I)
 RUBLES = re.compile(r"(?:скидк\w*\s*(?:до\s*)?|[-−]\s*)(\d{2,5})\s*(?:₽|руб(?:\.|лей|ля|ль)?)", re.I)
 MINIMUM = re.compile(r"(?:от|заказ\s+от)\s*(\d{3,6})\s*(?:₽|руб(?:\.|лей|ля|ль)?)", re.I)
-DATE_NUMERIC = re.compile(r"(?:до|действует\s+до|по)\s*(\d{1,2})[./-](\d{1,2})(?:[./-](\d{2,4}))?", re.I)
+DATE_NUMERIC = re.compile(r"(?:до|действует\s+до|по)\s*:?\s*(\d{1,2})[./-](\d{1,2})(?:[./-](\d{2,4}))?", re.I)
 MONTHS = {"января":1,"февраля":2,"марта":3,"апреля":4,"мая":5,"июня":6,"июля":7,"августа":8,"сентября":9,"октября":10,"ноября":11,"декабря":12}
 DATE_RU = re.compile(r"(?:до|по)\s*(\d{1,2})\s+(января|февраля|марта|апреля|мая|июня|июля|августа|сентября|октября|ноября|декабря)(?:\s+(20\d{2}))?", re.I)
 
@@ -77,13 +77,29 @@ def relevant(store: str, title: str, context: str, link: str, source_page: str, 
         expected = "/promocodes/lenta/" if store == "lenta" else "/promocodes/yarche"
         if expected not in urlparse(link).path.lower():
             return False
-    if kind == "telegram" and COMPETITORS.search(title + " " + context):
+    if kind == "telegram" and (COMPETITORS.search(title + " " + context) or not title_has and not target.search(context)):
         return False
     if COMPETITORS.search(title) and not title_has:
         return False
     page_path = urlparse(source_page).path.lower()
     page_is_specific = bool(re.search(r"lenta|yarche", page_path))
     return bool(target.search(combined)) or page_is_specific
+
+
+def useful_candidate(title: str, context: str) -> bool:
+    # Ignore navigation and shop-directory links that inherit promo words from a page-wide parent.
+    clean = " ".join(title.lower().split()).strip(" .·|")
+    if clean in {"лента онлайн", "зарегистрироваться", "обратная связь", "добавить каталог",
+                 "в магазин", "открыть акцию", "магазины", "категории", "найти",
+                 "trip.com", "sunlight", "лемана про", "я.путешествия"}:
+        return False
+    if clean.startswith("найти trip.com") or clean.startswith("прошопер — сим"):
+        return False
+    evidence = title + " " + context
+    return bool(re.search(
+        r"\d\s*%|\d+\s*(?:₽|руб)|бесплатн.{0,25}достав|достав.{0,20}бесплатн|кэшбэк|cashback|промокод\s*[:№-]?\s*[A-ZА-ЯЁ0-9]{4,}",
+        evidence, re.I
+    ))
 
 
 def offer_scope(title: str, text: str, offer_type: str | None) -> str:
@@ -162,6 +178,8 @@ def collect():
                     continue
                 combined = context + " " + title
                 if not relevant(store, title, context, link, response.url, kind, label):
+                    continue
+                if not useful_candidate(title, context):
                     continue
                 date_evidence = combined + " " + link
                 if re.search(r"нерабоч|не\s+работает|не\s+действ|ист[её]к|заверш[её]н|закончилась|акция\s+окончена", combined, re.I):
