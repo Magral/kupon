@@ -67,6 +67,10 @@ def relevant(store: str, title: str, context: str, link: str, source_page: str, 
         return False
     if "Pikadil" in source_name and not re.search(r"/view/yarcheplus\.ru", urlparse(link).path, re.I):
         return False
+    if "ПромоКодекс" in source_name:
+        expected = "/promocodes/lenta/" if store == "lenta" else "/promocodes/yarche"
+        if expected not in urlparse(link).path.lower():
+            return False
     if kind == "telegram" and COMPETITORS.search(title + " " + context):
         return False
     if COMPETITORS.search(title) and not title_has:
@@ -76,10 +80,13 @@ def relevant(store: str, title: str, context: str, link: str, source_page: str, 
     return bool(target.search(combined)) or page_is_specific
 
 
-def offer_scope(text: str, offer_type: str | None) -> str:
+def offer_scope(title: str, text: str, offer_type: str | None) -> str:
     if offer_type == "delivery": return "delivery"
-    if ORDER_SCOPE.search(text): return "basket"
+    if PRODUCT_SCOPE.search(title): return "product"
+    if re.search(r"на\s+доставк", title, re.I) and not re.search(r"заказ|корзин", title, re.I): return "unknown"
+    if ORDER_SCOPE.search(title): return "basket"
     if PRODUCT_SCOPE.search(text): return "product"
+    if ORDER_SCOPE.search(text): return "basket"
     return "unknown"
 
 
@@ -168,7 +175,7 @@ def collect():
                 rubles = RUBLES.search(combined)
                 minimum = MINIMUM.search(combined)
                 kind_value = "percent" if discount else "fixed" if rubles else "delivery" if free_ship else None
-                scope = offer_scope(combined, kind_value)
+                scope = offer_scope(title, combined, kind_value)
                 grade, note = source_grade(kind, combined)
                 headline = context[:150] if title.casefold() in {"подробнее", "открыть", "открыть код", "показать код", "перейти", "акция", "купон", "view in telegram", "скопировано"} else title if len(title) >= 8 else context[:150]
                 records.append({
