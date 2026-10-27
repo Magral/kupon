@@ -27,7 +27,7 @@ SOURCES = [
 HEADERS = {"User-Agent": "KuponOfferCollector/0.2 (+https://github.com/Magral/kupon)"}
 PROMO_WORDS = re.compile(r"промокод|купон|скидк|акци|бесплатн.{0,20}достав|эконом", re.I)
 CODE = re.compile(r"(?:промокод|код)\s*[:№\-]?\s*[`'«\"]?([A-ZА-ЯЁ0-9][A-ZА-ЯЁ0-9_-]{3,19})", re.I)
-COMPETITORS = re.compile(r"пят[её]рочк|перекр[её]сток|магнит|самокат|ашан|окей|вкусвилл|купер", re.I)
+COMPETITORS = re.compile(r"яндекс\s*лавк|пят[её]рочк|перекр[её]сток|магнит|самокат|ашан|окей|вкусвилл|купер", re.I)
 ORDER_SCOPE = re.compile(r"заказ|корзин|самовывоз|доставк", re.I)
 PRODUCT_SCOPE = re.compile(r"молоч|мяс|птиц|овощ|фрукт|сыр|снек|товар|продукт|каталог", re.I)
 PERCENT = re.compile(r"(?:скидк\w*\s*(?:до\s*)?|[-−]\s*)(\d{1,2})\s*%", re.I)
@@ -67,7 +67,7 @@ def relevant(store: str, title: str, context: str, link: str, source_page: str, 
         return False
     if "Pikadil" in source_name and not re.search(r"/view/yarcheplus\.ru", urlparse(link).path, re.I):
         return False
-    if kind == "telegram" and COMPETITORS.search(combined) and not title_has:
+    if kind == "telegram" and COMPETITORS.search(title + " " + context):
         return False
     if COMPETITORS.search(title) and not title_has:
         return False
@@ -81,6 +81,17 @@ def offer_scope(text: str, offer_type: str | None) -> str:
     if ORDER_SCOPE.search(text): return "basket"
     if PRODUCT_SCOPE.search(text): return "product"
     return "unknown"
+
+
+def candidate_telegram(soup: BeautifulSoup, base_url: str):
+    for wrap in soup.select(".tgme_widget_message_wrap"):
+        body = wrap.select_one(".tgme_widget_message_text")
+        if body is None: continue
+        text = " ".join(body.get_text(" ", strip=True).split())
+        if not text or not PROMO_WORDS.search(text): continue
+        post = wrap.get("data-post", "")
+        link = "https://t.me/" + post if post else base_url
+        yield text[:180], text[:900], link
 
 
 def source_grade(kind: str, text: str) -> tuple[str, str]:
@@ -129,7 +140,8 @@ def collect():
                 raise ValueError("non-HTML response")
             soup = BeautifulSoup(response.text, "html.parser")
             source_count = 0
-            for title, context, link in candidate_blocks(soup, response.url):
+            candidates = candidate_telegram(soup, response.url) if kind == "telegram" else candidate_blocks(soup, response.url)
+            for title, context, link in candidates:
                 if source_count >= 8:
                     break
                 # Keep external references inside the source page domain; this prevents unrelated ads.
@@ -138,8 +150,11 @@ def collect():
                 combined = context + " " + title
                 if not relevant(store, title, context, link, response.url, kind, label):
                     continue
-                date_text = DATE_NUMERIC.search(combined) or DATE_RU.search(combined.lower())
-                expires = expiry(combined)
+                date_evidence = combined + " " + link
+                if re.search(r"нерабоч|не\s+работает|не\s+действ|ист[её]к|заверш[её]н|закончилась|акция\s+окончена", combined, re.I):
+                    continue
+                date_text = DATE_NUMERIC.search(date_evidence) or DATE_RU.search(date_evidence.lower())
+                expires = expiry(date_evidence)
                 if date_text and expires is None:
                     continue
                 code_match = CODE.search(combined)
@@ -178,12 +193,22 @@ def collect():
         except Exception as exc:
             errors.append({"source": label, "url": source_url, "error": str(exc)[:180]})
         time.sleep(0.4)
-    # Keep a compact feed for mobile and remove repeated cards.
-    deduped, seen = [], set()
+    # Merge multiple links from one promotion card and keep a compact mobile feed.
+    merged = {}
     for item in records:
-        key = (item["store"], item["title"].casefold(), item["source_name"])
-        if key in seen: continue
-        seen.add(key); deduped.append(item)
+        key = (item["store"], item["source_url"])
+        if key not in merged:
+            merged[key] = item
+            continue
+        old = merged[key]
+        if len(item["title"]) > len(old["title"]) and not old["type"]:
+            old["title"] = item["title"]
+        if not old["code"] and item["code"]: old["code"] = item["code"]
+        if not old["type"] and item["type"]:
+            old["type"], old["value"], old["scope"] = item["type"], item["value"], item["scope"]
+        if not old["expires"] and item["expires"]: old["expires"] = item["expires"]
+        old["minimum"] = max(old["minimum"], item["minimum"])
+    deduped = list(merged.values())
     return {"schema_version":1,"updated_at":now,"stores":["lenta","yarche"],"count":len(deduped),"offers":deduped[:80],"source_errors":errors}
 
 
