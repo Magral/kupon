@@ -73,6 +73,9 @@ def relevant(store: str, title: str, context: str, link: str, source_page: str, 
         return False
     if "Pikadil" in source_name and not re.search(r"/view/yarcheplus\.ru", urlparse(link).path, re.I):
         return False
+    # This directory page currently exposes unrelated navigation tiles as offers.
+    if "Промокод.com" in source_name and not title_has:
+        return False
     if "ПромоКодекс" in source_name:
         expected = "/promocodes/lenta/" if store == "lenta" else "/promocodes/yarche"
         if expected not in urlparse(link).path.lower():
