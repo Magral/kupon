@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-31T09:48:06Z",
+  "updated_at": "2026-11-01T10:37:54Z",
   "stores": [
     "lenta",
     "yarche"
   ],
-  "count": 23,
+  "count": 18,
   "offers": [
     {
       "store": "lenta",
@@ -23,7 +23,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-31T09:48:06Z"
+      "updated_at": "2026-11-01T10:37:54Z"
     },
     {
       "store": "lenta",
@@ -41,7 +41,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-31T09:48:06Z"
+      "updated_at": "2026-11-01T10:37:54Z"
     },
     {
       "store": "lenta",
@@ -59,7 +59,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-31T09:48:06Z"
+      "updated_at": "2026-11-01T10:37:54Z"
     },
     {
       "store": "lenta",
@@ -77,7 +77,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-31T09:48:06Z"
+      "updated_at": "2026-11-01T10:37:54Z"
     },
     {
       "store": "yarche",
@@ -95,7 +95,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-31T09:48:06Z"
+      "updated_at": "2026-11-01T10:37:54Z"
     },
     {
       "store": "yarche",
@@ -113,7 +113,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-31T09:48:06Z"
+      "updated_at": "2026-11-01T10:37:54Z"
     },
     {
       "store": "yarche",
@@ -131,11 +131,11 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-31T09:48:06Z"
+      "updated_at": "2026-11-01T10:37:54Z"
     },
     {
       "store": "yarche",
-      "title": "Halloween",
+      "title": "Распродажа 11.11",
       "description": "Cкидки по категориям Автомобильные товары Детские товары Одежда, Обувь, Аксессуары Цветы и Подарки Компьютеры и электроника Интернет, Игры, Софт Домашние животные Ювелирные изделия Хобби Книги и музыка Здоровье и Красота Еда Мебель Путешествия Бытовая техника Спорт Другое Дом и сад Покупки за границей Обучение Маркетплейс Страхование Финансы Такси Бесплатные подписки Услуги Доставка еды Промокоды на 1-й заказ Распрод",
       "code": "Войти",
       "type": "delivery",
@@ -144,12 +144,12 @@
       "minimum": 0,
       "expires": null,
       "source_name": "ПромКод.ру",
-      "source_url": "https://www.promkod.ru/events/halloween",
+      "source_url": "https://www.promkod.ru/events/shopping-festival",
       "source_page": "https://www.promkod.ru/shop/yarcheplus",
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-31T09:48:06Z"
+      "updated_at": "2026-11-01T10:37:54Z"
     },
     {
       "store": "yarche",
@@ -167,7 +167,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-31T09:48:06Z"
+      "updated_at": "2026-11-01T10:37:54Z"
     },
     {
       "store": "yarche",
@@ -185,7 +185,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-31T09:48:06Z"
+      "updated_at": "2026-11-01T10:37:54Z"
     },
     {
       "store": "yarche",
@@ -203,25 +203,25 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-31T09:48:06Z"
+      "updated_at": "2026-11-01T10:37:54Z"
     },
     {
       "store": "yarche",
-      "title": "от Британские пекарни",
-      "description": "Промокод Скидка 10% на ваш заказ Показать код от Британские пекарни 10%",
-      "code": "Скидка",
-      "type": "percent",
+      "title": "от NEW YORK PIZZA",
+      "description": "Акция До 30% скидки при заказе Комбо Воспользоваться от NEW YORK PIZZA 30%",
+      "code": null,
+      "type": null,
       "scope": "basket",
-      "value": 10,
+      "value": null,
       "minimum": 0,
       "expires": null,
       "source_name": "ПромКод.ру",
-      "source_url": "https://www.promkod.ru/shop/british-bakery",
+      "source_url": "https://www.promkod.ru/shop/2020700",
       "source_page": "https://www.promkod.ru/shop/yarcheplus",
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-31T09:48:06Z"
+      "updated_at": "2026-11-01T10:37:54Z"
     },
     {
       "store": "lenta",
@@ -239,7 +239,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-31T09:48:06Z"
+      "updated_at": "2026-11-01T10:37:54Z"
     },
     {
       "store": "lenta",
@@ -257,7 +257,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-31T09:48:06Z"
+      "updated_at": "2026-11-01T10:37:54Z"
     },
     {
       "store": "lenta",
@@ -275,7 +275,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-31T09:48:06Z"
+      "updated_at": "2026-11-01T10:37:54Z"
     },
     {
       "store": "lenta",
@@ -293,7 +293,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-31T09:48:06Z"
+      "updated_at": "2026-11-01T10:37:54Z"
     },
     {
       "store": "lenta",
@@ -311,97 +311,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-31T09:48:06Z"
-    },
-    {
-      "store": "yarche",
-      "title": "Мясо и птица со скидками до 25%",
-      "description": "Мясо и птица со скидками до 25% Заканчивается сегодня",
-      "code": null,
-      "type": "percent",
-      "scope": "product",
-      "value": 25,
-      "minimum": 0,
-      "expires": null,
-      "source_name": "Pikadil · предложения сообщества",
-      "source_url": "https://pikadil.ru/view/yarcheplus.ru#promo-384744",
-      "source_page": "https://pikadil.ru/view/yarcheplus.ru",
-      "source_kind": "community",
-      "verification": "community",
-      "verification_note": "Предложение сообщества; проверьте код в корзине",
-      "updated_at": "2026-10-31T09:48:06Z"
-    },
-    {
-      "store": "yarche",
-      "title": "До -30% на молочную продукцию",
-      "description": "до 30% До -30% на молочную продукцию Заканчивается сегодня К предложению Перейдите в магазин В этом разделе вы найдете вкусные и полезные продукты питания по лучшим ценам! Не все товары участвуют в акции. [+] Больше информации Успешно применили купон? Загрузите снимок экрана магазина после применения купона, чтобы помочь пользователям удостовериться в работоспособности купона. Подробности Всё, что вам нужно знать об ",
-      "code": null,
-      "type": "percent",
-      "scope": "product",
-      "value": 30,
-      "minimum": 0,
-      "expires": null,
-      "source_name": "Pikadil · предложения сообщества",
-      "source_url": "https://pikadil.ru/view/yarcheplus.ru#promo-384745",
-      "source_page": "https://pikadil.ru/view/yarcheplus.ru",
-      "source_kind": "community",
-      "verification": "community",
-      "verification_note": "Предложение сообщества; проверьте код в корзине",
-      "updated_at": "2026-10-31T09:48:06Z"
-    },
-    {
-      "store": "yarche",
-      "title": "Скидки до 20% на овощи и фрукты",
-      "description": "Скидки до 20% на овощи и фрукты Заканчивается сегодня",
-      "code": null,
-      "type": "percent",
-      "scope": "product",
-      "value": 20,
-      "minimum": 0,
-      "expires": null,
-      "source_name": "Pikadil · предложения сообщества",
-      "source_url": "https://pikadil.ru/view/yarcheplus.ru#promo-384746",
-      "source_page": "https://pikadil.ru/view/yarcheplus.ru",
-      "source_kind": "community",
-      "verification": "community",
-      "verification_note": "Предложение сообщества; проверьте код в корзине",
-      "updated_at": "2026-10-31T09:48:06Z"
-    },
-    {
-      "store": "yarche",
-      "title": "До -30% на ассортимент товаров каталога",
-      "description": "до 30% До -30% на ассортимент товаров каталога Заканчивается сегодня К предложению Перейдите в магазин Сервис доставки регулярно снижает цены на некоторые товарные позиции из каталога. [+] Больше информации Успешно применили купон? Загрузите снимок экрана магазина после применения купона, чтобы помочь пользователям удостовериться в работоспособности купона. Подробности Всё, что вам нужно знать об этом предложении Пос",
-      "code": null,
-      "type": "percent",
-      "scope": "product",
-      "value": 30,
-      "minimum": 0,
-      "expires": null,
-      "source_name": "Pikadil · предложения сообщества",
-      "source_url": "https://pikadil.ru/view/yarcheplus.ru#promo-384747",
-      "source_page": "https://pikadil.ru/view/yarcheplus.ru",
-      "source_kind": "community",
-      "verification": "community",
-      "verification_note": "Предложение сообщества; проверьте код в корзине",
-      "updated_at": "2026-10-31T09:48:06Z"
-    },
-    {
-      "store": "yarche",
-      "title": "Кэшбэк до 5000р. по карте \"Ярче!\"",
-      "description": "до 5000₽ Кэшбэк до 5000р. по карте \"Ярче!\" Заканчивается сегодня К предложению Перейдите в магазин С дебетовой картой \"Ярче!\" и подпиской \"Ярче Плюс!\" вы будете получать повышенный кэшбэк за покупки в сети супермаркетов и интернет-магазине. [+] Больше информации Успешно применили купон? Загрузите снимок экрана магазина после применения купона, чтобы помочь пользователям удостовериться в работоспособности купона. Подр",
-      "code": null,
-      "type": "fixed",
-      "scope": "unknown",
-      "value": 5000,
-      "minimum": 0,
-      "expires": null,
-      "source_name": "Pikadil · предложения сообщества",
-      "source_url": "https://pikadil.ru/view/yarcheplus.ru#promo-384748",
-      "source_page": "https://pikadil.ru/view/yarcheplus.ru",
-      "source_kind": "community",
-      "verification": "community",
-      "verification_note": "Предложение сообщества; проверьте код в корзине",
-      "updated_at": "2026-10-31T09:48:06Z"
+      "updated_at": "2026-11-01T10:37:54Z"
     },
     {
       "store": "lenta",
@@ -419,7 +329,7 @@
       "source_kind": "telegram",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-10-31T09:48:06Z"
+      "updated_at": "2026-11-01T10:37:54Z"
     }
   ],
   "source_errors": [
@@ -427,6 +337,11 @@
       "source": "Лента · официальные акции",
       "url": "https://lenta.com/action/",
       "error": "401 Client Error: Unauthorized for url: https://lenta.com/action/"
+    },
+    {
+      "source": "Ярче! · официальный каталог",
+      "url": "https://yarcheplus.ru/",
+      "error": "527 Server Error:  for url: https://yarcheplus.ru/"
     },
     {
       "source": "Promokodi.net",
@@ -442,6 +357,11 @@
       "source": "Промокодо",
       "url": "https://www.promokodo.ru/kupon/lenta/",
       "error": "403 Client Error: Forbidden for url: https://www.promokodo.ru/kupon/lenta/"
+    },
+    {
+      "source": "Pikadil · предложения сообщества",
+      "url": "https://pikadil.ru/view/yarcheplus.ru",
+      "error": "HTTPSConnectionPool(host='pikadil.ru', port=443): Max retries exceeded with url: /view/yarcheplus.ru (Caused by ConnectTimeoutError(<HTTPSConnection(host='pikadil.ru', port=443) at"
     }
   ]
 }
