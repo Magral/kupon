@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-02T11:25:41Z",
+  "updated_at": "2026-11-03T11:02:02Z",
   "stores": [
     "lenta",
     "yarche"
@@ -23,7 +23,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-02T11:25:41Z"
+      "updated_at": "2026-11-03T11:02:02Z"
     },
     {
       "store": "lenta",
@@ -41,7 +41,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-02T11:25:41Z"
+      "updated_at": "2026-11-03T11:02:02Z"
     },
     {
       "store": "lenta",
@@ -59,7 +59,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-02T11:25:41Z"
+      "updated_at": "2026-11-03T11:02:02Z"
     },
     {
       "store": "lenta",
@@ -77,7 +77,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-02T11:25:41Z"
+      "updated_at": "2026-11-03T11:02:02Z"
     },
     {
       "store": "yarche",
@@ -95,7 +95,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-02T11:25:41Z"
+      "updated_at": "2026-11-03T11:02:02Z"
     },
     {
       "store": "yarche",
@@ -113,7 +113,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-02T11:25:41Z"
+      "updated_at": "2026-11-03T11:02:02Z"
     },
     {
       "store": "yarche",
@@ -131,7 +131,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-02T11:25:41Z"
+      "updated_at": "2026-11-03T11:02:02Z"
     },
     {
       "store": "yarche",
@@ -149,7 +149,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-02T11:25:41Z"
+      "updated_at": "2026-11-03T11:02:02Z"
     },
     {
       "store": "yarche",
@@ -167,7 +167,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-02T11:25:41Z"
+      "updated_at": "2026-11-03T11:02:02Z"
     },
     {
       "store": "yarche",
@@ -185,7 +185,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-02T11:25:41Z"
+      "updated_at": "2026-11-03T11:02:02Z"
     },
     {
       "store": "yarche",
@@ -203,7 +203,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-02T11:25:41Z"
+      "updated_at": "2026-11-03T11:02:02Z"
     },
     {
       "store": "yarche",
@@ -221,7 +221,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-02T11:25:41Z"
+      "updated_at": "2026-11-03T11:02:02Z"
     },
     {
       "store": "lenta",
@@ -239,7 +239,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-02T11:25:41Z"
+      "updated_at": "2026-11-03T11:02:02Z"
     },
     {
       "store": "lenta",
@@ -257,7 +257,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-02T11:25:41Z"
+      "updated_at": "2026-11-03T11:02:02Z"
     },
     {
       "store": "lenta",
@@ -275,7 +275,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-02T11:25:41Z"
+      "updated_at": "2026-11-03T11:02:02Z"
     },
     {
       "store": "lenta",
@@ -293,12 +293,12 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-02T11:25:41Z"
+      "updated_at": "2026-11-03T11:02:02Z"
     },
     {
       "store": "lenta",
-      "title": "Ограниченное предложение Получи купоны на скидку до 20%! Данные купоны пробиваются на кассе и предназначены для любых продуктов. Также здесь публикуются дополнительные промокоды на",
-      "description": "Ограниченное предложение Получи купоны на скидку до 20%! Данные купоны пробиваются на кассе и предназначены для любых продуктов. Также здесь публикуются дополнительные промокоды на скидку! Действует до: 31.01.2027",
+      "title": "Акция Получи купоны на скидку до 20%! Данные купоны пробиваются на кассе и предназначены для любых продуктов. Также здесь публикуются дополнительные промокоды на скидку! Действует ",
+      "description": "Акция Получи купоны на скидку до 20%! Данные купоны пробиваются на кассе и предназначены для любых продуктов. Также здесь публикуются дополнительные промокоды на скидку! Действует до: 31.01.2027",
       "code": null,
       "type": "percent",
       "scope": "product",
@@ -311,7 +311,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-02T11:25:41Z"
+      "updated_at": "2026-11-03T11:02:02Z"
     }
   ],
   "source_errors": [
@@ -339,11 +339,6 @@
       "source": "Промокодо",
       "url": "https://www.promokodo.ru/kupon/lenta/",
       "error": "403 Client Error: Forbidden for url: https://www.promokodo.ru/kupon/lenta/"
-    },
-    {
-      "source": "Купоноед",
-      "url": "https://kuponoed.ru/luchshie-promokody-ot-lenty/",
-      "error": "HTTPSConnectionPool(host='kuponoed.ru', port=443): Max retries exceeded with url: /luchshie-promokody-ot-lenty/ (Caused by NameResolutionError(\"HTTPSConnection(host='kuponoed.ru', "
     }
   ]
 }
