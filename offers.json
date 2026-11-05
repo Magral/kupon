@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-04T11:10:03Z",
+  "updated_at": "2026-11-05T11:09:53Z",
   "stores": [
     "lenta",
     "yarche"
@@ -23,7 +23,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-04T11:10:03Z"
+      "updated_at": "2026-11-05T11:09:53Z"
     },
     {
       "store": "lenta",
@@ -41,7 +41,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-04T11:10:03Z"
+      "updated_at": "2026-11-05T11:09:53Z"
     },
     {
       "store": "lenta",
@@ -59,7 +59,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-04T11:10:03Z"
+      "updated_at": "2026-11-05T11:09:53Z"
     },
     {
       "store": "lenta",
@@ -77,7 +77,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-04T11:10:03Z"
+      "updated_at": "2026-11-05T11:09:53Z"
     },
     {
       "store": "yarche",
@@ -95,7 +95,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-04T11:10:03Z"
+      "updated_at": "2026-11-05T11:09:53Z"
     },
     {
       "store": "yarche",
@@ -113,7 +113,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-04T11:10:03Z"
+      "updated_at": "2026-11-05T11:09:53Z"
     },
     {
       "store": "yarche",
@@ -131,7 +131,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-04T11:10:03Z"
+      "updated_at": "2026-11-05T11:09:53Z"
     },
     {
       "store": "yarche",
@@ -149,7 +149,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-04T11:10:03Z"
+      "updated_at": "2026-11-05T11:09:53Z"
     },
     {
       "store": "yarche",
@@ -167,7 +167,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-04T11:10:03Z"
+      "updated_at": "2026-11-05T11:09:53Z"
     },
     {
       "store": "yarche",
@@ -185,7 +185,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-04T11:10:03Z"
+      "updated_at": "2026-11-05T11:09:53Z"
     },
     {
       "store": "yarche",
@@ -203,16 +203,16 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-04T11:10:03Z"
+      "updated_at": "2026-11-05T11:09:53Z"
     },
     {
       "store": "yarche",
       "title": "от NEW YORK PIZZA",
-      "description": "Акция До 30% скидки при заказе Комбо Воспользоваться от NEW YORK PIZZA 30%",
-      "code": null,
-      "type": null,
+      "description": "Промокод Скидка 15% на заказы ко Дню Рождения Показать код от NEW YORK PIZZA",
+      "code": "Скидка",
+      "type": "percent",
       "scope": "basket",
-      "value": null,
+      "value": 15,
       "minimum": 0,
       "expires": null,
       "source_name": "ПромКод.ру",
@@ -221,7 +221,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-04T11:10:03Z"
+      "updated_at": "2026-11-05T11:09:53Z"
     },
     {
       "store": "lenta",
@@ -239,7 +239,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-04T11:10:03Z"
+      "updated_at": "2026-11-05T11:09:53Z"
     },
     {
       "store": "lenta",
@@ -257,7 +257,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-04T11:10:03Z"
+      "updated_at": "2026-11-05T11:09:53Z"
     },
     {
       "store": "lenta",
@@ -275,7 +275,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-04T11:10:03Z"
+      "updated_at": "2026-11-05T11:09:53Z"
     },
     {
       "store": "lenta",
@@ -293,12 +293,12 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-04T11:10:03Z"
+      "updated_at": "2026-11-05T11:09:53Z"
     },
     {
       "store": "lenta",
-      "title": "Акция Получи купоны на скидку до 20%! Данные купоны пробиваются на кассе и предназначены для любых продуктов. Также здесь публикуются дополнительные промокоды на скидку! Действует ",
-      "description": "Акция Получи купоны на скидку до 20%! Данные купоны пробиваются на кассе и предназначены для любых продуктов. Также здесь публикуются дополнительные промокоды на скидку! Действует до: 31.01.2027",
+      "title": "Популярное Получи купоны на скидку до 20%! Данные купоны пробиваются на кассе и предназначены для любых продуктов. Также здесь публикуются дополнительные промокоды на скидку! Дейст",
+      "description": "Популярное Получи купоны на скидку до 20%! Данные купоны пробиваются на кассе и предназначены для любых продуктов. Также здесь публикуются дополнительные промокоды на скидку! Действует до: 31.01.2027",
       "code": null,
       "type": "percent",
       "scope": "product",
@@ -311,7 +311,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-04T11:10:03Z"
+      "updated_at": "2026-11-05T11:09:53Z"
     }
   ],
   "source_errors": [
