@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-06T11:06:57Z",
+  "updated_at": "2026-11-07T10:26:17Z",
   "stores": [
     "lenta",
     "yarche"
@@ -23,7 +23,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-06T11:06:57Z"
+      "updated_at": "2026-11-07T10:26:17Z"
     },
     {
       "store": "lenta",
@@ -41,7 +41,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-06T11:06:57Z"
+      "updated_at": "2026-11-07T10:26:17Z"
     },
     {
       "store": "lenta",
@@ -59,7 +59,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-06T11:06:57Z"
+      "updated_at": "2026-11-07T10:26:17Z"
     },
     {
       "store": "lenta",
@@ -77,7 +77,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-06T11:06:57Z"
+      "updated_at": "2026-11-07T10:26:17Z"
     },
     {
       "store": "yarche",
@@ -95,7 +95,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-06T11:06:57Z"
+      "updated_at": "2026-11-07T10:26:17Z"
     },
     {
       "store": "yarche",
@@ -113,7 +113,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-06T11:06:57Z"
+      "updated_at": "2026-11-07T10:26:17Z"
     },
     {
       "store": "yarche",
@@ -131,7 +131,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-06T11:06:57Z"
+      "updated_at": "2026-11-07T10:26:17Z"
     },
     {
       "store": "yarche",
@@ -149,7 +149,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-06T11:06:57Z"
+      "updated_at": "2026-11-07T10:26:17Z"
     },
     {
       "store": "yarche",
@@ -167,7 +167,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-06T11:06:57Z"
+      "updated_at": "2026-11-07T10:26:17Z"
     },
     {
       "store": "yarche",
@@ -185,7 +185,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-06T11:06:57Z"
+      "updated_at": "2026-11-07T10:26:17Z"
     },
     {
       "store": "yarche",
@@ -203,7 +203,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-06T11:06:57Z"
+      "updated_at": "2026-11-07T10:26:17Z"
     },
     {
       "store": "yarche",
@@ -221,7 +221,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-06T11:06:57Z"
+      "updated_at": "2026-11-07T10:26:17Z"
     },
     {
       "store": "lenta",
@@ -239,7 +239,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-06T11:06:57Z"
+      "updated_at": "2026-11-07T10:26:17Z"
     },
     {
       "store": "lenta",
@@ -257,7 +257,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-06T11:06:57Z"
+      "updated_at": "2026-11-07T10:26:17Z"
     },
     {
       "store": "lenta",
@@ -275,7 +275,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-06T11:06:57Z"
+      "updated_at": "2026-11-07T10:26:17Z"
     },
     {
       "store": "lenta",
@@ -293,7 +293,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-06T11:06:57Z"
+      "updated_at": "2026-11-07T10:26:17Z"
     },
     {
       "store": "lenta",
@@ -311,7 +311,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-06T11:06:57Z"
+      "updated_at": "2026-11-07T10:26:17Z"
     }
   ],
   "source_errors": [
