@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-08T10:33:56Z",
+  "updated_at": "2026-11-09T11:48:24Z",
   "stores": [
     "lenta",
     "yarche"
   ],
-  "count": 17,
+  "count": 18,
   "offers": [
     {
       "store": "lenta",
@@ -23,7 +23,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-08T10:33:56Z"
+      "updated_at": "2026-11-09T11:48:24Z"
     },
     {
       "store": "lenta",
@@ -41,7 +41,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-08T10:33:56Z"
+      "updated_at": "2026-11-09T11:48:24Z"
     },
     {
       "store": "lenta",
@@ -59,7 +59,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-08T10:33:56Z"
+      "updated_at": "2026-11-09T11:48:24Z"
     },
     {
       "store": "lenta",
@@ -77,7 +77,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-08T10:33:56Z"
+      "updated_at": "2026-11-09T11:48:24Z"
     },
     {
       "store": "yarche",
@@ -95,7 +95,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-08T10:33:56Z"
+      "updated_at": "2026-11-09T11:48:24Z"
     },
     {
       "store": "yarche",
@@ -113,7 +113,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-08T10:33:56Z"
+      "updated_at": "2026-11-09T11:48:24Z"
     },
     {
       "store": "yarche",
@@ -131,7 +131,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-08T10:33:56Z"
+      "updated_at": "2026-11-09T11:48:24Z"
     },
     {
       "store": "yarche",
@@ -149,7 +149,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-08T10:33:56Z"
+      "updated_at": "2026-11-09T11:48:24Z"
     },
     {
       "store": "yarche",
@@ -167,7 +167,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-08T10:33:56Z"
+      "updated_at": "2026-11-09T11:48:24Z"
     },
     {
       "store": "yarche",
@@ -185,7 +185,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-08T10:33:56Z"
+      "updated_at": "2026-11-09T11:48:24Z"
     },
     {
       "store": "yarche",
@@ -203,7 +203,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-08T10:33:56Z"
+      "updated_at": "2026-11-09T11:48:24Z"
     },
     {
       "store": "yarche",
@@ -221,7 +221,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-08T10:33:56Z"
+      "updated_at": "2026-11-09T11:48:24Z"
     },
     {
       "store": "lenta",
@@ -239,7 +239,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-08T10:33:56Z"
+      "updated_at": "2026-11-09T11:48:24Z"
     },
     {
       "store": "lenta",
@@ -257,7 +257,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-08T10:33:56Z"
+      "updated_at": "2026-11-09T11:48:24Z"
     },
     {
       "store": "lenta",
@@ -275,7 +275,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-08T10:33:56Z"
+      "updated_at": "2026-11-09T11:48:24Z"
     },
     {
       "store": "lenta",
@@ -293,12 +293,12 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-08T10:33:56Z"
+      "updated_at": "2026-11-09T11:48:24Z"
     },
     {
       "store": "lenta",
-      "title": "Лучшее предложение Получи купоны на скидку до 20%! Данные купоны пробиваются на кассе и предназначены для любых продуктов. Также здесь публикуются дополнительные промокоды на скидк",
-      "description": "Лучшее предложение Получи купоны на скидку до 20%! Данные купоны пробиваются на кассе и предназначены для любых продуктов. Также здесь публикуются дополнительные промокоды на скидку! Действует до: 31.01.2027",
+      "title": "Популярное Получи купоны на скидку до 20%! Данные купоны пробиваются на кассе и предназначены для любых продуктов. Также здесь публикуются дополнительные промокоды на скидку! Дейст",
+      "description": "Популярное Получи купоны на скидку до 20%! Данные купоны пробиваются на кассе и предназначены для любых продуктов. Также здесь публикуются дополнительные промокоды на скидку! Действует до: 31.01.2027",
       "code": null,
       "type": "percent",
       "scope": "product",
@@ -311,7 +311,25 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-08T10:33:56Z"
+      "updated_at": "2026-11-09T11:48:24Z"
+    },
+    {
+      "store": "lenta",
+      "title": "🎁 Газпромбанк раздаёт ❗️ ❗️ ❗️ ❗️ ❗️ ❗️ : Сертификат на 1500₽ 🛒 🛍 🛒 🌻 + 20 000₽ кешбэка ВСЕМ, кто оформит БЕСПЛАТНУЮ ДЕБЕТОВУЮ карту! ❗️ Размер сертификата увеличили с 1000₽ до 150",
+      "description": "🎁 Газпромбанк раздаёт ❗️ ❗️ ❗️ ❗️ ❗️ ❗️ : Сертификат на 1500₽ 🛒 🛍 🛒 🌻 + 20 000₽ кешбэка ВСЕМ, кто оформит БЕСПЛАТНУЮ ДЕБЕТОВУЮ карту! ❗️ Размер сертификата увеличили с 1000₽ до 1500₽ ❗️ Успеваем! 1⃣ Оформляем ПОЛНОСТЬЮ БЕСПЛАТНУЮ ДЕБЕТОВУЮ карту по акционной ссылке 👈🏻 и выбираем в подарок сертификат: 1500₽ ОЗОН 🛒 1500₽ Wildberries 🛍 1500₽ Золотое Яблоко 🛒 1500₽ Лента 🌻 2⃣ Делаем ЛЮБУЮ покупку от 1000₽! 3⃣ Получаем в ",
+      "code": null,
+      "type": null,
+      "scope": "unknown",
+      "value": null,
+      "minimum": 1000,
+      "expires": null,
+      "source_name": "Telegram · публичная лента промокодов",
+      "source_url": "https://t.me/s/lenta_kodi",
+      "source_page": "https://t.me/s/lenta_kodi",
+      "source_kind": "telegram",
+      "verification": "unverified",
+      "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
+      "updated_at": "2026-11-09T11:48:24Z"
     }
   ],
   "source_errors": [
