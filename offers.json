@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-13T11:13:22Z",
+  "updated_at": "2026-11-14T10:38:48Z",
   "stores": [
     "lenta",
     "yarche"
   ],
-  "count": 17,
+  "count": 12,
   "offers": [
     {
       "store": "lenta",
@@ -23,7 +23,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-13T11:13:22Z"
+      "updated_at": "2026-11-14T10:38:48Z"
     },
     {
       "store": "lenta",
@@ -41,7 +41,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-13T11:13:22Z"
+      "updated_at": "2026-11-14T10:38:48Z"
     },
     {
       "store": "lenta",
@@ -59,7 +59,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-13T11:13:22Z"
+      "updated_at": "2026-11-14T10:38:48Z"
     },
     {
       "store": "lenta",
@@ -77,7 +77,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-13T11:13:22Z"
+      "updated_at": "2026-11-14T10:38:48Z"
     },
     {
       "store": "yarche",
@@ -95,7 +95,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-13T11:13:22Z"
+      "updated_at": "2026-11-14T10:38:48Z"
     },
     {
       "store": "yarche",
@@ -113,7 +113,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-13T11:13:22Z"
+      "updated_at": "2026-11-14T10:38:48Z"
     },
     {
       "store": "yarche",
@@ -131,7 +131,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-13T11:13:22Z"
+      "updated_at": "2026-11-14T10:38:48Z"
     },
     {
       "store": "yarche",
@@ -149,7 +149,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-13T11:13:22Z"
+      "updated_at": "2026-11-14T10:38:48Z"
     },
     {
       "store": "yarche",
@@ -167,7 +167,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-13T11:13:22Z"
+      "updated_at": "2026-11-14T10:38:48Z"
     },
     {
       "store": "yarche",
@@ -185,7 +185,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-13T11:13:22Z"
+      "updated_at": "2026-11-14T10:38:48Z"
     },
     {
       "store": "yarche",
@@ -203,7 +203,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-13T11:13:22Z"
+      "updated_at": "2026-11-14T10:38:48Z"
     },
     {
       "store": "yarche",
@@ -221,97 +221,7 @@
       "source_kind": "editorial",
       "verification": "unverified",
       "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-13T11:13:22Z"
-    },
-    {
-      "store": "lenta",
-      "title": "20% Скидка 20% по коду! Скидка 20% на первый 2 заказ в приложении при вводе промокода! Успей воспользоваться, пока код еще активен! Действует до: 28.02.2027",
-      "description": "Открыть промокод",
-      "code": null,
-      "type": "percent",
-      "scope": "basket",
-      "value": 20,
-      "minimum": 0,
-      "expires": "2027-02-28",
-      "source_name": "Kodisi",
-      "source_url": "https://kodisi.com/cpn/91154/",
-      "source_page": "https://kodisi.com/store/promokody-lenta-onlajn-na-pervyj-zakaz/",
-      "source_kind": "editorial",
-      "verification": "unverified",
-      "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-13T11:13:22Z"
-    },
-    {
-      "store": "lenta",
-      "title": "20% + 🚚 💎 Скидка 20% и доставка на повторный заказ! Постоянные клиенты могут воспользоваться еще одной скидкой на свой повторной заказ! Для этого скачайте мобильное приложение с са",
-      "description": "Открыть промокод",
-      "code": null,
-      "type": "percent",
-      "scope": "basket",
-      "value": 20,
-      "minimum": 0,
-      "expires": "2027-02-28",
-      "source_name": "Kodisi",
-      "source_url": "https://kodisi.com/cpn/58379/",
-      "source_page": "https://kodisi.com/store/promokody-lenta-onlajn-na-pervyj-zakaz/",
-      "source_kind": "editorial",
-      "verification": "unverified",
-      "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-13T11:13:22Z"
-    },
-    {
-      "store": "lenta",
-      "title": "20% Скидка 20% Скидка 20% при заказе от 2000 рублей по промокоду действует на товары без скидок, максимальная сумма скидки 1000 рублей Действует до: 31.01.2027",
-      "description": "Открыть промокод",
-      "code": null,
-      "type": "percent",
-      "scope": "product",
-      "value": 20,
-      "minimum": 2000,
-      "expires": "2027-01-31",
-      "source_name": "Kodisi",
-      "source_url": "https://kodisi.com/cpn/58381/",
-      "source_page": "https://kodisi.com/store/promokody-lenta-onlajn-na-pervyj-zakaz/",
-      "source_kind": "editorial",
-      "verification": "unverified",
-      "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-13T11:13:22Z"
-    },
-    {
-      "store": "lenta",
-      "title": "📱 Доп. скидка 20% в приложении! Используйте данный купон и скачайте мобильное приложение, чтобы получить дополнительную скидку 20% и дополнительные бесплатные доставки! Действует д",
-      "description": "📱 Доп. скидка 20% в приложении! Используйте данный купон и скачайте мобильное приложение, чтобы получить дополнительную скидку 20% и дополнительные бесплатные доставки! Действует до: 31.01.2027",
-      "code": null,
-      "type": "percent",
-      "scope": "basket",
-      "value": 20,
-      "minimum": 0,
-      "expires": "2027-01-31",
-      "source_name": "Kodisi",
-      "source_url": "https://kodisi.com/cpn/58384/",
-      "source_page": "https://kodisi.com/store/promokody-lenta-onlajn-na-pervyj-zakaz/",
-      "source_kind": "editorial",
-      "verification": "unverified",
-      "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-13T11:13:22Z"
-    },
-    {
-      "store": "lenta",
-      "title": "Выгодно Получи купоны на скидку до 20%! Данные купоны пробиваются на кассе и предназначены для любых продуктов. Также здесь публикуются дополнительные промокоды на скидку! Действуе",
-      "description": "Выгодно Получи купоны на скидку до 20%! Данные купоны пробиваются на кассе и предназначены для любых продуктов. Также здесь публикуются дополнительные промокоды на скидку! Действует до: 31.01.2027",
-      "code": null,
-      "type": "percent",
-      "scope": "product",
-      "value": 20,
-      "minimum": 0,
-      "expires": "2027-01-31",
-      "source_name": "Kodisi",
-      "source_url": "https://kodisi.com/cpn/58387/",
-      "source_page": "https://kodisi.com/store/promokody-lenta-onlajn-na-pervyj-zakaz/",
-      "source_kind": "editorial",
-      "verification": "unverified",
-      "verification_note": "Неподтверждённая публикация; проверьте код в корзине",
-      "updated_at": "2026-11-13T11:13:22Z"
+      "updated_at": "2026-11-14T10:38:48Z"
     }
   ],
   "source_errors": [
@@ -339,6 +249,11 @@
       "source": "Промокодо",
       "url": "https://www.promokodo.ru/kupon/lenta/",
       "error": "403 Client Error: Forbidden for url: https://www.promokodo.ru/kupon/lenta/"
+    },
+    {
+      "source": "Kodisi",
+      "url": "https://kodisi.com/store/promokody-lenta-onlajn-na-pervyj-zakaz/",
+      "error": "HTTPSConnectionPool(host='kodisi.com', port=443): Max retries exceeded with url: /store/promokody-lenta-onlajn-na-pervyj-zakaz/ (Caused by NewConnectionError(\"HTTPSConnection(host="
     }
   ]
 }
